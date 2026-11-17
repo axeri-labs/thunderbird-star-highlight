@@ -54,6 +54,15 @@ teljes hozzáférést kér. Az Experiment csak annyit csinál, hogy egy stílusl
 
 Thunderbird 115 és újabb.
 
+## Képernyőképek
+
+<!-- Ebben a sorrendben töltsd fel az ATN-re; a fájlok a docs/screenshots/ mappában vannak, 1280×800. -->
+
+1. table-view.png — A csillagozott üzenetek kiemelve Táblázat nézetben; a kijelölt üzenet megtartja a Thunderbird kijelölési színét.
+2. cards-view.png — Ugyanez Kártyanézetben.
+3. dark-theme.png — Külön szín sötét témához.
+4. settings.png — Be- és kikapcsolás, a két szín kiválasztása előnézettel, félkövér betű.
+
 ## Kategóriák
 
 <!-- Az ATN-en kell kiválasztani; javaslat: -->

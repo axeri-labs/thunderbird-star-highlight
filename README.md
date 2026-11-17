@@ -3,6 +3,8 @@
 Gives starred (flagged) messages a background color in the message list, so they stand out at a
 glance, in both Table View and Cards View.
 
+![Table View: starred messages on a light yellow background, the selected message in Thunderbird's own selection color](docs/screenshots/table-view.png)
+
 ## What it does
 
 - **Colored rows for starred messages** — in Table View the whole row, in Cards View the card.
@@ -16,6 +18,12 @@ glance, in both Table View and Cards View.
 - **Interface in English, Hungarian, German, French, Russian and Japanese** — it follows
   Thunderbird's own language, and uses the same words Thunderbird uses for starred messages in each
   of them.
+
+| Cards View | Dark theme |
+|---|---|
+| ![Cards View: starred messages as yellow cards](docs/screenshots/cards-view.png) | ![Dark theme: starred messages on a dark amber background](docs/screenshots/dark-theme.png) |
+
+![Settings: on/off, a color for light and for dark themes with a preview, bold text](docs/screenshots/settings.png)
 
 ## Installing
 
