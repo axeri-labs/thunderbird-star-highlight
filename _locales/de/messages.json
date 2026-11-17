@@ -1,0 +1,41 @@
+{
+  "extensionDescription": {
+    "message": "Hebt gekennzeichnete Nachrichten (mit Stern) in der Nachrichtenliste mit einer Hintergrundfarbe hervor, damit sie auffallen."
+  },
+  "optionsTitle": {
+    "message": "Star Highlight – Einstellungen"
+  },
+  "enabledTitle": {
+    "message": "Gekennzeichnete Nachrichten hervorheben"
+  },
+  "enabledDesc": {
+    "message": "Gekennzeichnete Nachrichten erhalten in der Nachrichtenliste eine Hintergrundfarbe, in der Tabellenansicht ebenso wie in der Kartenansicht. Die ausgewählte Nachricht behält die Auswahlfarbe von Thunderbird."
+  },
+  "lightColorTitle": {
+    "message": "Farbe für helles Theme"
+  },
+  "lightColorDesc": {
+    "message": "Wählen Sie einen hellen Farbton, damit die dunkle Schrift lesbar bleibt."
+  },
+  "darkColorTitle": {
+    "message": "Farbe für dunkles Theme"
+  },
+  "darkColorDesc": {
+    "message": "Wählen Sie einen dunklen Farbton, damit die helle Schrift lesbar bleibt."
+  },
+  "previewSample": {
+    "message": "Gekennzeichnete Nachricht"
+  },
+  "boldTitle": {
+    "message": "Fettschrift"
+  },
+  "boldDesc": {
+    "message": "Zeigt gekennzeichnete Nachrichten zusätzlich fett an, auch wenn sie bereits gelesen sind."
+  },
+  "resetButton": {
+    "message": "Standard wiederherstellen"
+  },
+  "saved": {
+    "message": "Gespeichert."
+  }
+}

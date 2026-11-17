@@ -1,0 +1,43 @@
+{
+  "extensionDescription": {
+    "message": "Highlights starred (flagged) messages in the message list with a background color, so they stand out."
+  },
+  "optionsTitle": {
+    "message": "Star Highlight – Settings"
+  },
+  "enabledTitle": {
+    "message": "Highlight starred messages"
+  },
+  "enabledDesc": {
+    "message": "Gives starred (flagged) messages a background color in the message list, in both Table View and Cards View. The selected message keeps Thunderbird's own selection color.",
+    "description": "Table View and Cards View are the names Thunderbird gives the two message list layouts."
+  },
+  "lightColorTitle": {
+    "message": "Color with a light theme"
+  },
+  "lightColorDesc": {
+    "message": "Pick a light shade, so the dark text stays readable."
+  },
+  "darkColorTitle": {
+    "message": "Color with a dark theme"
+  },
+  "darkColorDesc": {
+    "message": "Pick a dark shade, so the light text stays readable."
+  },
+  "previewSample": {
+    "message": "Starred message",
+    "description": "Sample text in the color preview next to each color picker."
+  },
+  "boldTitle": {
+    "message": "Bold text"
+  },
+  "boldDesc": {
+    "message": "Shows starred messages in bold as well, even once they are read."
+  },
+  "resetButton": {
+    "message": "Restore Defaults"
+  },
+  "saved": {
+    "message": "Saved."
+  }
+}

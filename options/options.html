@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Star Highlight – Settings</title>
+    <style>
+        :root {
+            --fg: #111;
+            --bg: #fff;
+            --muted: #666;
+            --line: #ddd;
+            --line-soft: #f0f0f0;
+            --status: #0055aa;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --fg: #e8e8e8;
+                --bg: #23222b;
+                --muted: #aaa;
+                --line: #44434d;
+                --line-soft: #34333c;
+                --status: #7fb2ff;
+                color-scheme: dark;
+            }
+        }
+
+        body {
+            font-family: -apple-system, "Segoe UI", Arial, sans-serif;
+            font-size: 14px;
+            color: var(--fg);
+            background: var(--bg);
+            margin: 0;
+            padding: 24px 32px;
+            max-width: 520px;
+        }
+
+        h1 {
+            font-size: 18px;
+            font-weight: 600;
+            margin: 0 0 24px;
+            border-bottom: 1px solid var(--line);
+            padding-bottom: 12px;
+        }
+
+        .setting {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            padding: 14px 0;
+            border-bottom: 1px solid var(--line-soft);
+        }
+
+        .setting-info { flex: 1; }
+
+        .setting-title {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 3px;
+        }
+
+        .setting-desc {
+            font-size: 12px;
+            color: var(--muted);
+            line-height: 1.5;
+        }
+
+        .setting input[type="checkbox"] {
+            margin-top: 2px;
+            width: 16px;
+            height: 16px;
+            flex-shrink: 0;
+            cursor: pointer;
+        }
+
+        .setting label { cursor: pointer; }
+
+        .color-field {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            flex-shrink: 0;
+        }
+
+        input[type="color"] {
+            width: 44px;
+            height: 28px;
+            padding: 0 2px;
+            border: 1px solid var(--line);
+            border-radius: 4px;
+            background: transparent;
+            cursor: pointer;
+        }
+
+        /* A starred row as it will look, in the theme the colour is meant for,
+           whichever theme the settings page itself is shown in. */
+        .preview {
+            display: inline-block;
+            min-width: 130px;
+            padding: 4px 8px;
+            border-radius: 3px;
+            font-size: 12px;
+            white-space: nowrap;
+        }
+
+        #lightPreview { color: #1a1a1a; }
+        #darkPreview { color: #f0f0f0; }
+        .preview.bold { font-weight: bold; }
+
+        button {
+            font-size: 13px;
+            padding: 4px 12px;
+            border: 1px solid var(--line);
+            border-radius: 4px;
+            background: transparent;
+            color: var(--fg);
+            cursor: pointer;
+        }
+
+        .actions {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-top: 16px;
+        }
+
+        #status {
+            font-size: 12px;
+            color: var(--status);
+            min-height: 16px;
+        }
+
+        fieldset[disabled] {
+            opacity: .5;
+        }
+    </style>
+</head>
+<body>
+    <h1>Star Highlight</h1>
+
+    <div class="setting">
+        <input type="checkbox" id="enabled">
+        <label for="enabled">
+            <div class="setting-title" data-i18n="enabledTitle">Highlight starred messages</div>
+            <div class="setting-desc" data-i18n="enabledDesc">Gives starred (flagged) messages a background color in the message list, in both Table View and Cards View. The selected message keeps Thunderbird's own selection color.</div>
+        </label>
+    </div>
+
+    <fieldset id="settings-fieldset" style="border:none; margin:0; padding:0;">
+    <div class="setting">
+        <div class="setting-info">
+            <label for="lightColor" class="setting-title" data-i18n="lightColorTitle">Color with a light theme</label>
+            <div class="setting-desc" data-i18n="lightColorDesc">Pick a light shade, so the dark text stays readable.</div>
+        </div>
+        <div class="color-field">
+            <span class="preview" id="lightPreview">★ <span data-i18n="previewSample">Starred message</span></span>
+            <input type="color" id="lightColor">
+        </div>
+    </div>
+
+    <div class="setting">
+        <div class="setting-info">
+            <label for="darkColor" class="setting-title" data-i18n="darkColorTitle">Color with a dark theme</label>
+            <div class="setting-desc" data-i18n="darkColorDesc">Pick a dark shade, so the light text stays readable.</div>
+        </div>
+        <div class="color-field">
+            <span class="preview" id="darkPreview">★ <span data-i18n="previewSample">Starred message</span></span>
+            <input type="color" id="darkColor">
+        </div>
+    </div>
+
+    <div class="setting">
+        <input type="checkbox" id="bold">
+        <label for="bold">
+            <div class="setting-title" data-i18n="boldTitle">Bold text</div>
+            <div class="setting-desc" data-i18n="boldDesc">Shows starred messages in bold as well, even once they are read.</div>
+        </label>
+    </div>
+    </fieldset>
+
+    <div class="actions">
+        <button type="button" id="reset" data-i18n="resetButton">Restore Defaults</button>
+        <div id="status"></div>
+    </div>
+
+    <script type="module" src="options.js"></script>
+</body>
+</html>

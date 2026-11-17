@@ -1,0 +1,18 @@
+{
+  "addons": {
+    "star-highlight@axerilabs.com": {
+      "updates": [
+        {
+          "version": "1.0.0",
+          "update_link": "https://github.com/axeri-labs/thunderbird-star-highlight/releases/download/v1.0.0/star-highlight.xpi",
+          "update_hash": "sha256:5dacb7e6deb9c96043b898752eeeb6a03821bfac7f801c58b963c55f4620f652",
+          "applications": {
+            "gecko": {
+              "strict_min_version": "115.0"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

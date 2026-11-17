@@ -1,0 +1,43 @@
+[
+  {
+    "namespace": "starHighlight",
+    "description": "Highlights starred (flagged) messages in the message list with a user style sheet scoped to about:3pane.",
+    "functions": [
+      {
+        "name": "apply",
+        "type": "function",
+        "async": true,
+        "description": "Registers the highlight style sheet, replacing the one registered before.",
+        "parameters": [
+          {
+            "name": "style",
+            "type": "object",
+            "properties": {
+              "lightColor": {
+                "type": "string",
+                "pattern": "^#[0-9a-fA-F]{6}$",
+                "description": "Row background with a light theme."
+              },
+              "darkColor": {
+                "type": "string",
+                "pattern": "^#[0-9a-fA-F]{6}$",
+                "description": "Row background with a dark theme."
+              },
+              "bold": {
+                "type": "boolean",
+                "description": "Show starred rows in bold."
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "remove",
+        "type": "function",
+        "async": true,
+        "description": "Unregisters the highlight style sheet.",
+        "parameters": []
+      }
+    ]
+  }
+]

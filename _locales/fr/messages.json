@@ -1,0 +1,41 @@
+{
+  "extensionDescription": {
+    "message": "Met en évidence les messages suivis (étoilés) dans la liste des messages avec une couleur de fond, pour qu’ils se remarquent."
+  },
+  "optionsTitle": {
+    "message": "Star Highlight – Paramètres"
+  },
+  "enabledTitle": {
+    "message": "Mettre en évidence les messages suivis"
+  },
+  "enabledDesc": {
+    "message": "Les messages suivis reçoivent une couleur de fond dans la liste des messages, en vue tableau comme en vue en fiches. Le message sélectionné garde la couleur de sélection de Thunderbird."
+  },
+  "lightColorTitle": {
+    "message": "Couleur avec un thème clair"
+  },
+  "lightColorDesc": {
+    "message": "Choisissez une teinte claire pour que le texte foncé reste lisible."
+  },
+  "darkColorTitle": {
+    "message": "Couleur avec un thème sombre"
+  },
+  "darkColorDesc": {
+    "message": "Choisissez une teinte foncée pour que le texte clair reste lisible."
+  },
+  "previewSample": {
+    "message": "Message suivi"
+  },
+  "boldTitle": {
+    "message": "Texte en gras"
+  },
+  "boldDesc": {
+    "message": "Affiche aussi les messages suivis en gras, même une fois lus."
+  },
+  "resetButton": {
+    "message": "Restaurer les paramètres initiaux"
+  },
+  "saved": {
+    "message": "Enregistré."
+  }
+}

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <rect width="48" height="48" rx="9" fill="#0055aa"/>
+
+  <!-- Message row -->
+  <line x1="11" y1="12" x2="37" y2="12" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Starred message row, highlighted -->
+  <rect x="6" y="17.5" width="36" height="13" rx="3.5" fill="#ffd23f"/>
+  <polygon points="13.50,19.70 14.72,22.63 17.87,22.88 15.47,24.94 16.20,28.02 13.50,26.37 10.80,28.02 11.53,24.94 9.13,22.88 12.28,22.63" fill="#0055aa" stroke="#0055aa" stroke-width="1" stroke-linejoin="round"/>
+  <line x1="21" y1="24" x2="37" y2="24" stroke="#0055aa" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Message row -->
+  <line x1="11" y1="36" x2="37" y2="36" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+</svg>

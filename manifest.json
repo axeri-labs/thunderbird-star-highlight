@@ -1,0 +1,39 @@
+{
+  "manifest_version": 2,
+  "name": "Star Highlight",
+  "version": "1.0.0",
+  "description": "__MSG_extensionDescription__",
+  "default_locale": "en",
+  "author": "Axeri Labs",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "star-highlight@axerilabs.com",
+      "strict_min_version": "115.0",
+      "update_url": "https://axeri-labs.github.io/thunderbird-star-highlight/updates.json"
+    }
+  },
+  "icons": {
+    "48": "icons/star-highlight-48.png",
+    "96": "icons/star-highlight-96.png"
+  },
+  "options_ui": {
+    "page": "options/options.html",
+    "open_in_tab": false
+  },
+  "background": {
+    "page": "background.html"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "experiment_apis": {
+    "starHighlight": {
+      "schema": "experiments/schema.json",
+      "parent": {
+        "scopes": ["addon_parent"],
+        "paths": [["starHighlight"]],
+        "script": "experiments/implementation.js"
+      }
+    }
+  }
+}

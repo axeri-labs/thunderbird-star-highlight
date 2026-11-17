@@ -1,0 +1,41 @@
+{
+  "extensionDescription": {
+    "message": "メッセージリストでスター付きメッセージを背景色で強調表示し、見つけやすくします。"
+  },
+  "optionsTitle": {
+    "message": "Star Highlight – 設定"
+  },
+  "enabledTitle": {
+    "message": "スター付きメッセージを強調表示する"
+  },
+  "enabledDesc": {
+    "message": "メッセージリストのスター付きメッセージに背景色を付けます。テーブルビューとカードビューの両方に対応しています。選択中のメッセージは Thunderbird 本来の選択色のままです。"
+  },
+  "lightColorTitle": {
+    "message": "ライトテーマでの色"
+  },
+  "lightColorDesc": {
+    "message": "暗い文字が読みやすいように、明るい色を選んでください。"
+  },
+  "darkColorTitle": {
+    "message": "ダークテーマでの色"
+  },
+  "darkColorDesc": {
+    "message": "明るい文字が読みやすいように、暗い色を選んでください。"
+  },
+  "previewSample": {
+    "message": "スター付きメッセージ"
+  },
+  "boldTitle": {
+    "message": "太字"
+  },
+  "boldDesc": {
+    "message": "スター付きメッセージを太字でも表示します。既読のメッセージも対象です。"
+  },
+  "resetButton": {
+    "message": "初期設定に戻す"
+  },
+  "saved": {
+    "message": "保存しました。"
+  }
+}

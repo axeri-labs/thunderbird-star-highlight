@@ -1,0 +1,41 @@
+{
+  "extensionDescription": {
+    "message": "Háttérszínnel emeli ki az üzenetlistában a csillagozott (megjelölt) üzeneteket, hogy jobban látszódjanak."
+  },
+  "optionsTitle": {
+    "message": "Star Highlight – Beállítások"
+  },
+  "enabledTitle": {
+    "message": "Csillagozott üzenetek kiemelése"
+  },
+  "enabledDesc": {
+    "message": "A csillagozott üzenetek háttérszínt kapnak az üzenetlistában, Táblázat nézetben és Kártyanézetben is. A kijelölt üzenet megtartja a Thunderbird saját kijelölési színét."
+  },
+  "lightColorTitle": {
+    "message": "Szín világos témánál"
+  },
+  "lightColorDesc": {
+    "message": "Válassz világos árnyalatot, hogy a sötét betű olvasható maradjon."
+  },
+  "darkColorTitle": {
+    "message": "Szín sötét témánál"
+  },
+  "darkColorDesc": {
+    "message": "Válassz sötét árnyalatot, hogy a világos betű olvasható maradjon."
+  },
+  "previewSample": {
+    "message": "Csillagozott üzenet"
+  },
+  "boldTitle": {
+    "message": "Félkövér betű"
+  },
+  "boldDesc": {
+    "message": "A csillagozott üzenetek félkövér betűvel is megjelennek, akkor is, ha már olvasottak."
+  },
+  "resetButton": {
+    "message": "Alapértelmezések helyreállítása"
+  },
+  "saved": {
+    "message": "Mentve."
+  }
+}
