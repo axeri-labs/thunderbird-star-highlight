@@ -94,8 +94,9 @@ update check, which fetches `updates.json` from GitHub Pages.
 
 ## Compatibility
 
-Requires Thunderbird 115 or later; the message list it styles was introduced in 115. The selectors
-were checked against the message list style sheets of Thunderbird 115, 128, 140, 153 and 159.
+Requires Thunderbird 115 or later; the message list it styles was introduced in 115. Tested on
+Thunderbird 140 ESR, 153 ESR and 159; the selectors were also checked against the message list
+style sheets of 115 and 128.
 
 There is deliberately no upper version limit, so a Thunderbird update never disables the add-on.
 If a future Thunderbird changes how the message list is built, the colors may stop showing until
