@@ -3,6 +3,8 @@
 Gives starred (flagged) messages a background color in the message list, so they stand out at a
 glance, in both Table View and Cards View.
 
+![Table View: starred messages on a light yellow background, the selected message in Thunderbird's own selection color](docs/screenshots/table-view.png)
+
 ## What it does
 
 - **Colored rows for starred messages** — in Table View the whole row, in Cards View the card.
@@ -16,6 +18,12 @@ glance, in both Table View and Cards View.
 - **Interface in English, Hungarian, German, French, Russian and Japanese** — it follows
   Thunderbird's own language, and uses the same words Thunderbird uses for starred messages in each
   of them.
+
+| Cards View | Dark theme |
+|---|---|
+| ![Cards View: starred messages as yellow cards](docs/screenshots/cards-view.png) | ![Dark theme: starred messages on a dark amber background](docs/screenshots/dark-theme.png) |
+
+![Settings: on/off, a color for light and for dark themes with a preview, bold text](docs/screenshots/settings.png)
 
 ## Installing
 
@@ -94,8 +102,9 @@ update check, which fetches `updates.json` from GitHub Pages.
 
 ## Compatibility
 
-Requires Thunderbird 115 or later; the message list it styles was introduced in 115. The selectors
-were checked against the message list style sheets of Thunderbird 115, 128, 140, 153 and 159.
+Requires Thunderbird 115 or later; the message list it styles was introduced in 115. Tested on
+Thunderbird 140 ESR, 153 ESR and 159; the selectors were also checked against the message list
+style sheets of 115 and 128.
 
 There is deliberately no upper version limit, so a Thunderbird update never disables the add-on.
 If a future Thunderbird changes how the message list is built, the colors may stop showing until

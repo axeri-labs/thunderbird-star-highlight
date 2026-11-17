@@ -52,6 +52,15 @@ Highlight reads no messages, sends nothing anywhere, and stores only its own set
 
 Thunderbird 115 and later.
 
+## Screenshots
+
+<!-- Upload on ATN in this order; files in docs/screenshots/, 1280×800. -->
+
+1. table-view.png — Starred messages stand out in Table View; the selected message keeps Thunderbird's selection color.
+2. cards-view.png — The same in Cards View.
+3. dark-theme.png — A separate color for dark themes.
+4. settings.png — Turn it on or off, pick the two colors with a preview, and choose bold text.
+
 ## Categories
 
 <!-- Pick on ATN; suggested: -->
